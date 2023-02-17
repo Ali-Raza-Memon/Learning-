@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This is Not a first Web page!</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1><u>Hello, Mr. Ali Raza Memon</u></h1>
-    <img src="coffee-cup.webp" alt="" class="meal" />
+    <picture>
+      <source media="(max-width:500px)" srcset="meal-cropped.jpg" />
+      <source media="(max-width:501px)" srcset="meal.jpg" />
+      <img src="meal.jpg" alt="" />
+    </picture>
   </body>
 </html>
